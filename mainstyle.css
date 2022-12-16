@@ -1,0 +1,251 @@
+body{
+    margin: 0;
+    font-family: "0 Yekan";
+    direction: rtl;
+}
+.navbar{
+    background-color: #2f2f2f;
+    overflow: hidden;
+}
+.navbar a {
+    text-decoration: none;
+    float: right;
+    text-align: center;
+    font-size: 18px;
+    padding: 14px 16px;
+    color: white;
+    font-family: "0 Yekan";
+}
+.navbar span{
+    float: right;
+    margin: 0;
+    background-color: #057d23;
+    text-align: center;
+    font-size: 18px;
+    padding: 14px 30px;
+    color: white;
+    font-family: "0 Yekan";
+}
+.navbar a:hover{
+    background-color: #d4d4d4;
+    color: black;
+}
+footer{
+    margin-top: 20px;
+    display: block;
+    background-color: #f2f2f2;
+    padding:20px 0;
+    box-sizing: border-box;
+    height: max-content;
+    box-shadow: -2px -5px 10px 0px #3754aa15;
+}
+
+.topfoot{
+    width: 100%;
+    position: relative;
+    margin-bottom: 30px;
+}
+.topfoot span{
+    display: block;
+    position: relative;
+    padding:0 20px;
+    width:max-content;
+    margin: 0 auto;
+}
+.topfoot span img{
+    vertical-align: middle;
+    height: 100px;
+    width: auto;
+}
+.rowfoot{
+    max-width:1200px;
+    position: relative;
+    box-sizing: border-box;
+    display: table;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.optionsfoot{
+    position: relative;
+    width: 70%;
+    float: right;
+    padding:0 20px;
+}
+.optionsfoot div{
+    display: flex;
+    flex-direction: row;
+    min-height: 100%;
+    flex-wrap: wrap;
+}
+.columnfoot{
+    flex: 0 0 25%;
+    max-width: 25%;
+    height: 100%;
+}
+.columnfoot h3{
+    font: "0 Yekan" 700 17px/25px;
+    margin-bottom: 14px;
+    color: #148cbe;
+    width: 100%;
+}
+.columnfoot ul{
+    list-style-type: none;
+    padding-right:0;
+    margin-top:0;
+}
+.columnfoot ul li{
+    margin-bottom: 14px;
+}
+.columnfoot ul li a{
+    text-decoration: none;
+    color: #323232;
+    font: "0 Yekan" 700 17px/25px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition:  all 0.4s ease;
+    -ms-transition:  all 0.4s ease;
+    -o-transition:  all 0.4s ease;
+    transition:  all 0.4s ease;
+}
+.columnfoot ul li a:hover{
+    color: #1474a4;
+}
+.socialfoot{
+    width: 30%;
+}
+.socialfoot h2{
+    width: 100%;
+    color: #323232;
+    padding: 0 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #001450;
+}
+.socialfoot div{
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    align-items: flex-start;
+}
+.socialfoot div a {
+    height: 100%;
+    width: 50%;
+}
+.socialfoot div a img{
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+    fill: red;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+
+}
+.intro{
+    padding: 20px;
+    margin: 0 20px;
+}
+.main img{
+    border-radius: 50%;
+    width: 30%;
+    float: left;
+
+}
+
+.main h1{
+    padding: 20px;
+}
+
+#abilities {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#abilities td, #abilities th {
+    border: 1px solid #e1e1e1;
+    padding: 8px;
+    text-align: center;
+}
+
+#abilities tr:nth-child(even){background-color: #f3f3f3;}
+
+#abilities tr:hover {background-color: #e1e1e1;}
+
+#abilities th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #057d23;
+    color: white;
+}
+
+.contact{
+    position: relative;
+    width: 55%;
+    margin-left:2%;
+    margin-top:20px;
+    border: solid 1px rgba(49, 49, 49, 0.11);
+    padding: 15px;
+    border-radius: .5rem;
+    background-color: #ffffff;
+    font-family: "0 Yekan";
+    margin: auto;
+}
+.contact label{
+    font-size: 15px;
+    position: relative;
+    font-weight: 800;
+    height: 24px;
+    width: 150px;
+    padding: 10px;
+}
+input[type=text],input[type=email]{
+    font-size: 15px;
+    height: 24px;
+    float: left;
+    width: 100%;
+    border:1px solid #b4b4b4;
+    line-height: inherit;
+    padding: 10px 0;
+    text-indent: .8rem;
+    margin-bottom: 15px;
+    border-radius: 2px;
+}
+input:focus,textarea:focus{
+    border-color: #0ae1fe;
+}
+form{
+    height: auto;
+    width: 100%;
+}
+form textarea{
+    box-sizing: border-box;
+    padding: 0.8rem 0.4rem;
+    text-indent: .8rem;
+    width: 100%;
+    border-radius: 3px;
+    border:1px solid #b4b4b4;
+    font-size: 15px;
+    text-align: right;
+    line-height: 20px;
+    margin-bottom: 15px;
+    resize: none;
+}
+#sub{
+    background-color: #0ae1fe;
+    height: 40px;
+    border: none;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#success{
+    color: green;
+}
